@@ -1,0 +1,163 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+.container
+{
+	width:70%;
+	border:1px solid grey;
+	border-radius:5px;
+	display:flex;
+	justify-content:spece-around;
+	padding:20px;
+	gap:10px;
+	margin:0 auto;
+	margin-top:250px;
+}
+.body{
+	width:100%;
+	height:100vh;
+justify-content:center;
+display:flex;
+}
+
+.btn_primary{
+	background-color:#3742fa;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+	
+}
+.btn_primary:hover{
+	background-color:#5f27cd;
+
+
+}
+.btn_secondary{
+	background-color:#535c68;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+}
+.btn_secondary:hover{
+	background-color:#ced6e0;
+}
+
+.btn_success{
+	background-color:#009432;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+}
+.btn_success:hover{
+	background-color:#1dd1a1;
+
+}
+
+.btn_Danger{
+	background-color:#EA2027;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+}
+.btn_Danger:hover{
+	background-color:#ff6b6b;
+}
+
+.btn_Warning{
+	background-color:#FFC312;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+	
+}
+.btn_Warning:hover{
+	background-color:#f6e58d;
+
+}
+
+
+.btn_Info{
+	background-color:#48dbfb;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+}
+.btn_Info:hover{
+	background-color:#7ed6df;
+
+}
+
+
+.btn_Light{
+	background-color:lighter;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+}
+.btn_Light:hover{
+	background-color:aliceblue;
+
+}
+
+.btn_Dark{
+	background-color:black;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	font-size:bold;
+	color:white;
+	transition:0.8s;
+	text-decoration:none;
+}
+.btn_Dark:hover{
+	background-color: #34495e;
+}
+
+.link{
+	text-decoration:underline;
+	padding:none;
+	border:none;
+	border-radius:none;
+	background-color:none;
+	color:blue;
+}
+
+
+
+
+
+
+
+
+
